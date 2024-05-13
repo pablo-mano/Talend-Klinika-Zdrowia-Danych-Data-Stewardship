@@ -1,0 +1,440 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Data Wizards - &#34;Klinika Zdrowia Danych Talend&#34;</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14" ga4id=""></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  codelab-ga4id=""
+                  id="talend-klinika-zdrowia-danych-data-stewardship"
+                  title="Data Wizards - &#34;Klinika Zdrowia Danych Talend&#34;"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Przewodnik po rozpoczęciu pracy z Talend Cloud Data Stewardship" duration="0">
+        <p class="image-container"><img style="width: 223.50px" src="img/a2910a146009d4fb.png"></p>
+<p><strong>Talend Cloud Data Stewardship</strong> to aplikacja, za pomocą której możesz zarządzać zasobami danych. Organizuje interakcje na danych, ilekroć wymagana jest interwencja człowieka w celu współpracy przy przechowywaniu danych, arbitrażu lub walidacji.</p>
+<p>Rozwiązanie to działa w oparciu o <strong>chmurę Talend</strong>, która zapewnia możliwości klasy korporacyjnej wraz z łącznością z dowolnym źródłem danych.<br></p>
+<p>Podstawowe pojęcia <strong>Talend Cloud Data Stewardship</strong> to kampanie i zadania. Ma dwie predefiniowane role, a mianowicie: właścicieli kampanii i stewardów danych.<br></p>
+<p><strong>Kampania</strong> to główna jednostka pracy właścicieli kampanii. Zawiera wszystkie wymagane zasoby konfiguracyjne określone przez właściciela kampanii:</p>
+<ul>
+<li>Jakie są <strong>zadania</strong> o (struktura danych, ograniczenia walidacyjne itp.)?</li>
+<li>Co musi zrobić <strong>steward danych</strong>, aby rozwiązać zadania kampanii (typ zadania)?</li>
+<li>Którzy stewardowie danych pracują nad zadaniami kampanii (uczestnicy kampanii)?</li>
+<li>W jaki sposób stewardowie danych współpracują przy rozwiązywaniu zadań kampanii (przepływ pracy kampanii)?<br></li>
+</ul>
+<p><strong>Zadanie</strong> jest główną jednostką pracy stewardów danych. Zadanie należy do kampanii i jest przypisane do stewarda danych. Ma cykl życia, w którym przechodzi przez różne stany zgodnie z przepływem pracy zdefiniowanym w kampanii.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Uruchom Talend Data Stewardship" duration="0">
+        <h2 is-upgraded><strong>Kroki:</strong></h2>
+<ol type="1" start="1">
+<li>Wybierz z listy rozwijanej aplikację Data Stewardship</li>
+</ol>
+<p class="image-container"><img style="width: 477.50px" src="img/8efd4bcda45a3c3e.png"></p>
+<ol type="1" start="2">
+<li>Zaakceptuj import przykładowej zawartości do tego modułu:</li>
+</ol>
+<p class="image-container"><img style="width: 624.00px" src="img/29bc5a0e28712377.png"></p>
+<ol type="1" start="3">
+<li>Jeżeli powyższe okienko się nie pokaże po wejściu w aplikację, przejdź do pozycji &#34;Guided tour&#34; w menu swojego profilu użytkownika w prawym górnym rogu</li>
+</ol>
+<p class="image-container"><img style="width: 338.50px" src="img/e6a52cb741ca81d2.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Zapoznanie się z interfejsem użytkownika" duration="0">
+        <p><strong>Talend Cloud Data Stewardship</strong> posiada łatwy w użyciu interfejs, dzięki któremu interwencja w dane jest łatwiejsza niż kiedykolwiek.</p>
+<p>Możesz skorzystać z przewodnika, który zapoznaje Cię z kluczowymi elementami i funkcjami aplikacji oraz daje możliwość importowania przykładowych treści, co pomoże Ci szybko rozpocząć pracę.</p>
+<h2 is-upgraded><strong>Procedura</strong></h2>
+<ol type="1" start="1">
+<li>Zaloguj się jako właściciel kampanii lub jako administrator danych.<br>Opcje dostępne na stronie głównej zależą od Twojej roli i tego, czy posiadasz licencję na Platformę obejmującą jakość danych.<br>Strona Kampanie lub Zadania zawiera listę wszystkich kampanii, których jesteś częścią.<br><img alt="Campaigns page." style="width: 624.00px" src="img/5170d1552e25467f.png"><br>Ikony znajdujące się obok nazwy każdej kampanii zapewniają właścicielom kampanii szybki dostęp do ważnych opcji zarządzania, w tym edycji, kopiowania, eksportowania i monitorowania kampanii.</li>
+<li>Na liście kampanii kliknij nazwę kampanii, którą chcesz otworzyć.<br>Z pasków na górze strony Kampanie możesz wyświetlić więcej informacji o otwartej kampanii i jej zadaniach. Możesz wchodzić w interakcję z treścią, aby nawigować i uzyskiwać dostęp do innych stron, do których masz dostęp zgodnie z przypisaną Ci rolą.</li>
+<li>Na górnym pasku:</li>
+</ol>
+<ul>
+<li>Kliknij Data Stewardship i wybierz aplikację, do której chcesz się przełączyć z listy dostępnych aplikacji, lub kliknij ikonę po lewej stronie, aby wrócić do strony głównej środowiska chmurowego.</li>
+<li>Kliknij opcję Pomoc, aby otworzyć dokumentację online.</li>
+<li>Kliknij nazwę logowania i skorzystaj z otwartej listy, aby:</li>
+<li>Otwórz prezentację z przewodnikiem, która zawiera wskazówki dotyczące kluczowych elementów i funkcji aplikacji, a także importuje przykładowe treści, które pomogą Ci szybko rozpocząć pracę.</li>
+<li>Uzyskaj dostęp do stron wsparcia Talend i społeczności.</li>
+<li>Skonfiguruj preferencje profilu użytkownika, w których możesz edytować swoje dane osobowe, skonfigurować preferencje dotyczące języka i regionu oraz zmienić hasło.</li>
+<li>Wyloguj się i zaloguj ponownie do Talend Cloud Data Stewardship.</li>
+<li><img alt="The top bar in the interface." style="width: 624.00px" src="img/fe66ccfb396cfb0b.png"></li>
+</ul>
+<ol type="1" start="4">
+<li>Na pasku menu:</li>
+</ol>
+<ul>
+<li>Kliknij nazwę kampanii, aby wyświetlić więcej informacji o kampanii.</li>
+<li>Użyj listy Stan, aby uzyskać dostęp do zadań znajdujących się w różnych stanach przejściowych w kampanii.<br>Dostępne stany różnią się w zależności od stanów zdefiniowanych w przebiegu kampanii i Twoich praw dostępu.</li>
+<li>Jeśli otworzysz kampanię jako administrator danych, użyj listy po lewej stronie, aby przełączać się pomiędzy przydzielonymi Ci zadaniami a nowymi zadaniami w bieżącej kampanii.<br>Z nowej listy zadań możesz przypisywać zadania innym administratorom danych w ramach tej samej kampanii.</li>
+<li>Kliknij strzałki Cofnij i Ponów, aby cofnąć lub powtórzyć ostatnią akcję wykonaną na liście zadań w bieżącej sesji.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Uzgadnianie danych pochodzących z różnych źródeł" duration="0">
+        <p>Jednym z rozwiązań dostarczanych przez Talend Cloud Data Stewardship jest dopasowywanie, oczyszczanie i mastering danych za pomocą kampanii Merging.</p>
+<p>Ten przypadek użycia opisuje, w jaki sposób można dopasowywać i oczyszczać dane pochodzące z różnych źródeł w celu tworzenia rekordów głównych.</p>
+<p>Załóżmy, że masz problemy z jakością danych i anomaliami w danych klientów. Znalazłeś zduplikowane informacje o potencjalnych klientach ze względu na brak synchronizacji pomiędzy różnymi systemami CRM używanymi w Twojej firmie. Kampania łączenia umożliwia rozwiązywanie duplikatów poprzez zachowanie tylko odpowiednich danych.</p>
+<p>Należy jednak wziąć pod uwagę dwa aspekty:</p>
+<ul>
+<li>Jak zidentyfikować grupy dopasowań, które grupują razem potencjalnie zduplikowane rekordy? Ten problem można rozwiązać, używając zadania Talend w Talend Studio.</li>
+<li>Jak wybrać najlepsze wartości atrybutów ze źródeł danych i przedstawić najdokładniejsze i najbardziej wiarygodne rekordy główne dotyczące zużycia przez użytkowników i systemy? Ten problem został rozwiązany poprzez użycie kampanii łączenia w Talend Data Stewardship.</li>
+</ul>
+<p>Aby odtworzyć przykład i użyć dokładnych danych klienta, zakładamy, że właściciel kampanii pobrał plik wejściowy i zadanie Talend użyte w tym przykładzie. Można ich używać do ładowania zadań w kampanii po jej utworzeniu.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Dodanie kampanii łączenia w celu uzgodnienia danych" duration="0">
+        <p>Utwórz kampanię łączenia, aby rozwiązać problemy z jakością danych i anomaliami w danych klientów pochodzących z różnych źródeł. Kampania ta określa strukturę danych, którymi należy zarządzać, działania, jakie należy podjąć na danych oraz jakich administratorów danych ma pracować nad jakimi zadaniami.</p>
+<p>Możesz ustawić uprawnienia dla każdego atrybutu i dla każdego stewarda danych, aby określić, kto może przeglądać lub edytować które atrybuty. Możesz także zdecydować, w jaki sposób uczestnicy kampanii będą współpracować przy rozwiązywaniu zadań kampanii. Kampania może być własnością jednego lub kilku właścicieli kampanii.</p>
+<h2 is-upgraded><strong>Zanim zaczniesz</strong></h2>
+<ul>
+<li>Administrator utworzył użytkowników zarządzających i przypisał im role w konsoli zarządzania Talend. Więcej informacji na temat zarządzania użytkownikami znajdziesz w artykule <a href="https://help.talend.com/r/en-US/Cloud/management-console-user-guide/tmc-user-management" target="_blank">Zarządzanie użytkownikami</a>.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Zdefiniowanie modelu danych dla kampanii" duration="0">
+        <p>Utwórz model danych, aby określić strukturę danych, które mają być zarządzane w <code>Uzgadnianie danych klientów</code> kampania. Ta kampania pomaga stewardom danych łączyć zbędne dane klientów pochodzące z różnych systemów.</p>
+<p>Data Stewardship ma świadomość modelu danych, co umożliwia syntaktyczną i semantyczną walidację danych. Dlatego kampania opiera się na modelu danych, aby zapewnić zgodność danych z oczekiwaną strukturą i formatem.</p>
+<h2 is-upgraded><strong>O tym zadaniu</strong></h2>
+<p>Zdefiniuj atrybuty w modelu danych i wybierz ich typy spośród predefiniowanych typów standardowych lub semantycznych</p>
+<h2 is-upgraded><strong>Procedura</strong></h2>
+<ol type="1" start="1">
+<li>Zaloguj się jako właściciel kampanii.<br>Możesz także tworzyć modele danych, jeśli rola przypisana Ci w Talend Management Console ma uprawnienia do dodawania modeli danych i zarządzania nimi.</li>
+<li>Wybierz pozycję Modele danych &gt; Dodaj model danych.</li>
+<li>Wprowadź nazwę i opis nowego modelu odpowiednio w polach Nazwa i Opis. Pola opcjonalne są oznaczone * obok ich nazw.</li>
+<li>W sekcji Atrybuty zdefiniuj kolumny, które chcesz mieć w modelu danych, w następujący sposób:</li>
+</ol>
+<ol type="1" start="1">
+<li>W polu Identyfikator wprowadź identyfikator techniczny dla pierwszej kolumny.</li>
+<li>W razie potrzeby wprowadź nazwę i opis kolumny w odpowiednich polach.<br>To, co ustawisz w polu Nazwa, to nazwa wyświetlana na liście zadań. Jeśli nie zostanie ustawiona żadna nazwa, wyświetlony zostanie identyfikator techniczny.</li>
+<li>Z listy typów atrybutów wybierz typ kolumny.<br><img alt="Column types in the attribute type list." style="width: 539.00px" src="img/383558d38d520884.png"><br>Typy standardowe i semantyczne są domyślnie zintegrowane z aplikacją.</li>
+</ol>
+<ul>
+<li>W przypadku typów standardowych wyświetlane są dodatkowe pola w zależności od wybranego typu. Pola te są opcjonalne i umożliwiają zdefiniowanie pewnych ograniczeń definiowanego atrybutu, np. zdefiniowanie minimalnej i/lub maksymalnej długości lub zdefiniowanie wzorca, według którego będzie sprawdzany atrybut.<br>Aby mieć pewność, że cała wartość pasuje do wzorca walidacji, najlepszą praktyką jest otoczenie wzorca walidacji<code>^</code> I<code>$</code>.<br>Kilka przykładów:</li>
+<li><code>[A–Z]</code> mecze<code>A</code> I<code>ABC</code>.</li>
+<li><code>^[A-Z]$</code> mecze<code>A</code> ale nie pasuje<code>ABC</code>.</li>
+<li>Dla<code>Data</code> I<code>Znak czasu</code> kolumnach masz dostęp do selektora daty i godziny, który pomaga automatycznie ustawić datę i godzinę we właściwym formacie.</li>
+<li>W przypadku typów semantycznych możesz skorzystać z usługi słownikowej Talend, aby zarządzać typami semantycznymi. Dostępność tej usługi zależy jednak od posiadanej licencji.</li>
+</ul>
+<ol type="1" start="5">
+<li>Przełącz opcję Zdefiniuj listę wartości, aby wyświetlić pola, w których możesz ustawić określone wartości atrybutu.<br>Wszelkie wartości, których nie ma na tej liście, są oznaczone jako nieprawidłowe na liście zadań.</li>
+<li>Opcjonalnie przełącz opcję Zezwalaj na puste wartości, aby wyłączyć przesyłanie pustych pól. Opcja jest wyłączona domyślnie.</li>
+<li>Kliknij Dodaj atrybut i powtórz powyższe kroki, aby utworzyć wszystkie potrzebne kolumny w modelu danych.</li>
+<li>Notatka informacyjna</li>
+<li>Wskazówka: na karcie Reguły możesz zastosować reguły jakości danych. Reguła jakości danych to zbiór wymagań biznesowych, który pomaga wykryć anomalie w kampaniach. Definiuje wartości, jakim muszą odpowiadać Twoje dane. Można dodać warunek, aby reguła jakości danych miała zastosowanie tylko do niektórych danych. Aby uzyskać więcej informacji, zobacz <a href="https://help.talend.com/r/en-US/Cloud/data-stewardship-user-guide/working-with-data-quality-rules" target="_blank">Praca z regułami jakości danych</a>.</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Definicja kampanii" duration="0">
+        <p>Ta kampania łączenia umożliwia porównanie zbędnych danych kontaktowych pobranych z różnych systemów i podjęcie decyzji, jakie wartości atrybutów definiują rekordy główne.</p>
+<p>Zacznij od zdefiniowania metadanych kampanii.</p>
+<h2 is-upgraded><strong>Procedura</strong></h2>
+<ol type="1" start="1">
+<li>Wybierz Kampanie &gt; Dodaj kampanię.</li>
+<li>Wprowadź nazwę i opis nowej kampanii.</li>
+<li>Jako typ kampanii wybierz Scalanie.<br><img alt="Add campaign wizard." style="width: 624.00px" src="img/c0445dd5f3e86aa7.png"></li>
+<li>Przełącz opcję Zdefiniuj źródła, aby wyświetlić pole, w którym możesz ustawić pierwszą nazwę źródła.</li>
+<li>Użyj przycisku plusa, aby dodać dwa kolejne pola pod źródłami i ustawić nazwy źródeł. Upewnij się, że nazwy źródeł nie zawierają kropek i nie zaczynają się od znaku dolara.<br>Dane klientów pochodzą z trzech różnych źródeł: Salesforce, Marketo i NetSuite.</li>
+<li>W każdym z pól Trust Score wpisz procent określający wagę wartości pochodzącej ze źródła danych.<br>Wyniki te są wykorzystywane przez aplikację do łączenia nadmiarowych danych i tworzenia domyślnych rekordów głównych.<br>Kiedy administratorzy danych uzyskują dostęp do listy zadań, rekordy główne są już zdefiniowane zgodnie z tymi wynikami. Mogą jednak ręcznie ustawić reguły przeżycia według atrybutów w rekordach danych lub wprowadzić zupełnie nowe wartości podczas rozwiązywania zadania.<br>W tym przykładzie informacje kontaktowe pochodzące z Salesforce są początkowo wykorzystywane przez aplikację do tworzenia rekordów głównych, ponieważ Salesforce uzyskał najwyższy wynik, podczas gdy Marketo zajmuje drugie miejsce na liście.</li>
+<li>Przełącz opcję Włącz opóźnienie rozwiązywania zadań i ustaw opóźnienie używane do obliczania terminów.<br>Termin realizacji obliczany jest poprzez dodanie ustawionego przez Ciebie opóźnienia do daty i godziny wczytania zadań w kampanii. Jeśli pozostawisz tę opcję wyłączoną, kolumna Termin na liście zadań pozostanie pusta, a zadania nie będą miały opóźnienia w rozwiązywaniu.</li>
+<li>Uwaga: termin wykonania w kampanii łączenia jest podany tylko w rekordach głównych.</li>
+<li>Kliknij pole Właściciele kampanii i wybierz z listy jednego lub więcej użytkowników, aby przyznać im dostęp do bieżącej kampanii.<br>Ta lista pokazuje wszystkich użytkowników zdefiniowanych w Talend Management Console i posiadających rolę właściciela kampanii.</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Określenie ról w kampanii" duration="0">
+        <p>Jako właściciel kampanii możesz definiować role w kampaniach, aby decydować, którzy stewardowie danych będą częścią kampanii i którzy stewardowie danych będą mieli dostęp do jakich zadań i podczas jakiego przejścia przepływu pracy w kampanii.</p>
+<h2 is-upgraded><strong>O tym zadaniu</strong></h2>
+<p>Dla<code>Uzgadnianie danych klientów</code> kampanii, chcesz zdefiniować trzy role.</p>
+<h2 is-upgraded><strong>Procedura</strong></h2>
+<ol type="1" start="1">
+<li>Na stronie Dodaj kampanię kliknij Role &gt;<img alt="Edit the role name" style="width: 21.00px" src="img/c2a45f100ef3de94.png"> .</li>
+<li>Nazwij pierwszą rolę <code>Account Analyst</code> i kliknij<img alt="Save" style="width: 15.00px" src="img/c187f8f31b4f66b8.png"> żeby to zapisać.<br><img alt="Roles view." style="width: 624.00px" src="img/6a8866780381387b.png"></li>
+<li>Powtórz powyższe kroki, aby dodać dwie inne role i nadać im nazwy<code>Walidator konta</code> I<code>Menadżer konta</code>.</li>
+<li>Kliknij pola poniżej każdej z ról i wybierz z listy jednego lub więcej stewardów danych, którym chcesz przypisać tę rolę.<br>Ta lista pokazuje wszystkich użytkowników zdefiniowanych w Talend Management Console i przypisanych im roli stewardów danych.</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Ustawianie modelu danych w kampanii" duration="0">
+        <p>Modele danych decydują o strukturze danych, którymi należy zarządzać. Służą do syntaktycznej i semantycznej walidacji danych.</p>
+<p>Można zdefiniować uprawnienia dostępu dla każdej roli do każdego atrybutu wymienionego w modelu danych.</p>
+<h2 is-upgraded><strong>Procedura</strong></h2>
+<ul>
+<li>Na stronie Dodaj kampanię kliknij Model danych i wybierz z listy modeli strukturę danych, której chcesz użyć w kampanii.<br>Lista modeli umożliwia dostęp do wszystkich zdefiniowanych modeli danych.<br><img alt="Data model view." style="width: 624.00px" src="img/c4aa4c4713a37797.png"></li>
+<li>Wybierz przyciski obok każdego atrybutu w strukturze danych, aby ustawić uprawnienia dla każdego atrybutu i roli/zarządcy danych oraz określić, kto może przeglądać/edytować jakie atrybuty.</li>
+</ul>
+<table>
+<tr><td colspan="1" rowspan="1"><p><strong>Ikona</strong></p>
+</td><td colspan="1" rowspan="1"><p><strong>Opis</strong></p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p class="image-container"><img alt="Read/write access icon" style="width: 20.00px" src="img/d106bbcfd63396cb.png"></p>
+</td><td colspan="1" rowspan="1"><p>Zapewnia dostęp do odczytu/zapisu atrybutu w modelu danych.</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p class="image-container"><img alt="Read access icon" style="width: 20.00px" src="img/783b1771c9c3bd74.png"></p>
+</td><td colspan="1" rowspan="1"><p>Zapewnia tylko dostęp do odczytu atrybutu w modelu danych.</p>
+<p>Ten rodzaj dostępu jest przydatny, jeśli administrator danych musi uzyskać dostęp do informacji, aby podjąć odpowiednią decyzję, ale nie może zmieniać wartości, na przykład unikalnych identyfikatorów innych elementów powiązanych z podmiotem, który przegląda, lub danych, o których wiesz, że są wiarygodne i nie należy go zmieniać.</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p class="image-container"><img alt="No access icon" style="width: 22.00px" src="img/1ffadf661958ea00.png"></p>
+</td><td colspan="1" rowspan="1"><p>Nie zapewnia dostępu do atrybutu.</p>
+<p>Ukrycie atrybutu jest przydatne, jeśli informacje są wrażliwe i nie powinny być widoczne dla administratora danych, na przykład informacji finansowych. Innym przykładem ukrywania atrybutów jest sytuacja, gdy informacja dla stewarda jest jedynie szumem, na przykład identyfikatorem technicznym, ale musi zostać rozpowszechniona w ramach zadania.</p>
+</td></tr>
+</table>
+<ul>
+<li><h2 is-upgraded><strong>Przykład</strong></h2>
+</li>
+</ul>
+<p>W tej kampanii przyznajesz dostęp tylko do odczytu do atrybutu identyfikatora uczestnikom kampanii, którzy posiadają rolę Account Analyst. Podczas gdy pozostali uczestnicy mają dostęp do odczytu i zapisu.</p>
+<ul>
+<li>Wybierz regułę z list Reguły przetrwania obok każdego atrybutu.<br>Reguły te służą do decydowania, jakie wartości atrybutów definiują rekordy główne podczas ładowania danych do kampanii. Stewardzi danych mogą następnie ręcznie modyfikować te wybory.</li>
+<li>Pierwsze prawidłowe: wybiera pierwsze źródło, które zawiera prawidłową wartość w odniesieniu do ograniczeń zdefiniowanych w powiązanym modelu danych. Wartość jest ważna, jeśli jest zgodna ze wszystkimi zdefiniowanymi ograniczeniami i regułami. „Pierwszy&#34; jest definiowany przez kolejność rekordów podczas tworzenia zadania.</li>
+<li>First not null: Wybiera pierwsze źródło zawierające niepustą wartość, gdzie „pierwszy&#34; jest zdefiniowany na podstawie kolejności rekordów podczas tworzenia zadania.</li>
+<li>Najczęściej: wybiera najczęstszą wartość atrybutu duplikatów pochodzących z jednego lub większej liczby źródeł danych.</li>
+<li>Najnowsze: wybiera najnowszą wartość atrybutu duplikatów pochodzących z jednego lub większej liczby źródeł danych. Opiera się to na metadanych daty ostatniej aktualizacji.</li>
+<li>Najbardziej zaufane: wybiera najbardziej zaufaną wartość atrybutu duplikatów zgodnie z oceną zaufania ustawioną podczas tworzenia kampanii lub podczas ładowania zadań w kampanii. Jeśli nie zdefiniowano wskaźnika zaufania, ta opcja nie działa.</li>
+<li>Można wybrać jedną regułę dla wszystkich atrybutów wybierając ją z listy w prawym górnym rogu formularza. Jeśli danego algorytmu nie można zastosować, reguła wraca do wartości First, a nie do wartości null. Na przykład, jeśli nie ustawisz wskaźnika zaufania i podczas definiowania kampanii wybierzesz opcję Najbardziej zaufana, zostanie zastosowana opcja First not null. Podobnie opcja First not null jest używana, jeśli wybierzesz opcję Most common lub First valid, a wśród duplikatów danych nie ma wspólnych lub prawidłowych wartości.</li>
+</ul>
+<h2 is-upgraded><br><strong>Przykład</strong></h2>
+<p>Poniżej znajdują się przykłady tego, jak zasady dotyczące przeżycia dyktują, jaką wartość wybrać do tworzenia rekordów głównych.</p>
+<ul>
+<li>Pierwszy ważny: Adres e-mail:</li>
+<li>Jeśli pierwsza wartość jest nieprawidłowa, a druga jest, wygrywa drugi e-mail.</li>
+<li>Jeśli wszystkie adresy e-mail są nieprawidłowe, wygrywa pierwsza niepusta wartość.</li>
+<li>Pierwsze nie null: Imię:</li>
+<li>Jeśli pierwsza wartość jest pusta, a druga nie, wygrywa drugie imię.</li>
+<li>Jeśli wszystkie imiona są puste, imię jest puste w rekordzie głównym.</li>
+<li>Najczęściej: Nazwisko:</li>
+<li>Jeśli nazwiska są identyczne w dwóch rekordach źródłowych, wygrywa ta wartość.</li>
+<li>Jeśli nazwiska są różne we wszystkich rekordach źródłowych, wygrywa pierwsza niepusta wartość.</li>
+<li>Najnowszy numer telefonu i sygnatura czasowa:</li>
+<li>Jeśli jeden numer telefonu ma najnowszy znacznik czasu, wygrywa ta wartość.</li>
+<li>Jeśli wszystkie numery telefonów mają ten sam znacznik czasu, wygrywa pierwsza niepusta wartość.</li>
+<li>Najbardziej zaufane: Adres:</li>
+<li>Jeśli wszystkie adresy w rekordach źródłowych mają wskaźniki zaufania, wygrywa wartość z najwyższym wynikiem.</li>
+<li>Jeśli wszystkie adresy w rekordach źródłowych mają wskaźniki zaufania, a dwa są identyczne, wygrywa pierwszy identyczny adres.</li>
+<li>Jeśli nie wszystkie adresy mają wskaźniki zaufania, wygrywa pierwsza niepusta wartość.</li>
+<li>Opcjonalnie kliknij Dodaj kampanię, aby zapisać ją w aplikacji i wypełnić formularz tworzenia w dogodny dla Ciebie sposób.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Zdefiniowanie przepływu pracy w kampanii" duration="0">
+        <p>Przepływy pracy kontrolują przechodzenie zadań z jednego stanu do drugiego. Definiują, w jaki sposób stewardowie danych mogą współpracować przy rozwiązywaniu zadań kampanii, czyli którzy stewardowie mogą uzyskać dostęp do jakiego stanu zadania lub przejścia.</p>
+<h2 is-upgraded><strong>O tym zadaniu</strong></h2>
+<p>w kampani <code>Merging customer data</code>, chcesz dodać do przepływu pracy dwa etapy walidacji, aby dokładnie sprawdzić, czy atrybuty użyte do utworzenia rekordów głównych są właściwe i czy są kompletne. Każdy z dwóch etapów walidacji umożliwia stewardom danych zaakceptowanie lub odrzucenie modyfikacji dokonanych w zadaniach. Administrator danych dodany do ostatniego etapu walidacji może oznaczyć zadania jako rozwiązane lub odesłać je z powrotem do dowolnego etapu przepływu pracy.</p>
+<h2 is-upgraded><strong>Procedura</strong></h2>
+<ol type="1" start="1">
+<li>Kliknij dwukrotnie opcję Dodaj krok weryfikacji, aby dodać dwa kroki w przepływie pracy.</li>
+<li>Kliknij w pole Nowe i spośród tych, które zdefiniowałeś w sekcji Role, wybierz role, którym chcesz przyznać dostęp do nowych zadań.<br><img alt="Workflow view." style="width: 624.00px" src="img/6324fb9db2b7e6ee.png"></li>
+<li>Zrób to samo w pozostałych polach i zdecyduj, którzy stewardzy danych powinni mieć dostęp do pierwszej i drugiej iteracji walidacji oraz do rozwiązanych zadań.<br>Administratorzy danych, którzy mają dostęp do rozwiązanych zadań, mogą je ponownie otworzyć i zdecydować o odesłaniu ich z powrotem do dowolnego poprzedniego stanu w przepływie pracy.</li>
+<li>Opcjonalnie kliknij ikonę edycji obok nazwy dowolnego kroku w przepływie pracy i zmień jego nazwę zgodnie ze swoimi potrzebami.</li>
+<li>Kliknij Dodaj kampanię, aby utworzyć kampanię i ją zapisać.</li>
+</ol>
+<h2 is-upgraded><strong>Co zrobic nastepnie</strong></h2>
+<p>Użyj zadania Talend, aby załadować zadania do kampanii.</p>
+<p>Skorzystaj z zadania i pliku wejściowego, które możesz pobrać z zakładki Pobieranie portalu w Centrum pomocy Talend. Więcej informacji na temat zadania zob<a href="https://help.talend.com/r/en-US/8.0/data-stewardship" target="_blank">Komponenty zarządzania danymi</a>.</p>
+<p>W Talend Cloud Pipeline Designer możesz także czytać i zapisywać w kampaniach.</p>
+<p>Aby uzyskać więcej informacji, zobacz<a href="https://help.talend.com/r/en-US/Cloud/connectors-guide/talend-cloud-data-stewardship-campaigns" target="_blank">Kampanie Talend dotyczące zarządzania danymi w chmurze</a>.</p>
+<h2 is-upgraded><strong>Przydzielanie zadań uzgadniających</strong></h2>
+<p>Po załadowaniu zadań do kampanii możesz przypisać je do dowolnej części kampanii odpowiedzialnej za zarządzanie danymi.</p>
+<h2 is-upgraded><strong>Procedura</strong></h2>
+<ol type="1" start="1">
+<li>Zaloguj się jako właściciel kampanii.</li>
+<li>Na stronie Kampanie kliknij kampanię.<br><img alt="Campaigns page." style="width: 624.00px" src="img/68a11bb8a7d5a0f9.png"></li>
+<li>Na liście nieprzydzielonych zadań przytrzymaj klawisze Ctrl + Shift, wybierz zadania i wykonaj jedną z poniższych czynności:</li>
+</ol>
+<ul>
+<li>Wskaż administratora danych, któremu chcesz przypisać zadania i kliknij<img alt="Assign tasks" style="width: 26.00px" src="img/7b62ab678b878b15.png"> obok ich nazwy.</li>
+<li>Upuść wybrane zadania na nazwę stewarda danych.</li>
+<li>Wybierz Zadanie w prawym panelu i użyj opcji Przypisz zadania, aby zdecydować, któremu administratorowi danych przypisać wybrane zadania.</li>
+</ul>
+<ol type="1" start="4">
+<li>Możesz użyć wykresów wyświetlanych obok listy zadań, aby filtrować dane i wyświetlać tylko te zadania, które chcesz przypisać konkretnemu administratorowi danych.</li>
+<li>Opcjonalnie kliknij na nazwisko stewarda, aby otworzyć listę przydzielonych mu zadań. Kliknij Nieprzypisane zadania w lewym górnym rogu, aby wrócić do listy nieprzydzielonych zadań i kontynuować przydzielanie zadań stewardom danych.</li>
+</ol>
+<h2 is-upgraded><strong>Wyniki</strong></h2>
+<p>Wybrane zadania zostaną przeniesione na listę administratora danych. Liczba zadań widoczna pod nazwą uczestnika w lewym panelu to liczba zadań przypisanych mu w kampanii.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Obsługa zadań uzgadniających" duration="0">
+        <p>Po przypisaniu zadań Tobie jako administratorowi danych możesz rozpocząć przetwarzanie zduplikowanych rekordów zgodnie z transakcjami zdefiniowanymi w przepływie pracy.</p>
+<p>Przepływ pracy zdefiniowany podczas tworzenia kampanii określa, które stany są dostępne dla jakich stewardów danych.</p>
+<p>W tym przykładzie zadania przechodzą przez cztery stany:</p>
+<ul>
+<li>W pierwszym stanie wartości definiujące rekordy główne są wybierane na podstawie różnych wyników, a potencjalne rekordy główne są wysyłane do zatwierdzenia.</li>
+<li>W drugim stanie rekordy główne są zatwierdzane pod kątem dokładności i akceptowane lub odrzucane.</li>
+<li>W stanie trzecim akta główne są zatwierdzane pod kątem kompletności i akceptowane lub odrzucane.</li>
+<li>W ostatnim stanie rozwiązywane są rekordy główne.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Ustawianie reguł i wartości dla rekordów głównych" duration="0">
+        <p>Kiedy zduplikowane rekordy klienta pochodzą z różnych źródeł, Talend Cloud Data Stewardship określa początkowo, które atrybuty dopasowanych rekordów mają zostać użyte do utworzenia rekordów głównych zgodnie z zasadami przeżycia zdefiniowanymi w kampanii.</p>
+<h2 is-upgraded><strong>O tym zadaniu</strong><br></h2>
+<p>Administratorzy danych przeglądają swoje zadania i ręcznie modyfikują zasady przeżycia według atrybutu rekordu lub wprowadzają zupełnie nowe wartości, aby uzyskać najdokładniejsze i najbardziej wiarygodne rekordy główne.</p>
+<h2 is-upgraded><strong>Procedura</strong></h2>
+<ol type="1" start="1">
+<li>Zaloguj się jako administrator danych.</li>
+<li>Na stronie Zadania kliknij nazwę kampanii,<code>Uzgadnianie danych klientów</code> w tym przykładzie, aby otworzyć listę przypisanych Ci zadań.<br>Pasek jakości u góry listy wykorzystuje kolory, aby zapewnić jasny obraz jakości danych w każdej kolumnie. Wskazanie koloru daje szczegółowe informacje na temat wartości danych w wybranej kolumnie.<br><img alt="List of tasks assigned to the user in the Reconciling client data campaign." style="width: 624.00px" src="img/703e4b8c891b9935.png"></li>
+<li>Kliknij kolor na pasku jakości, aby przefiltrować dane, na których chcesz pracować i wyświetlić listę zadań pasujących do oznaczenia koloru:</li>
+</ol>
+<ul>
+<li>Zielony: reprezentuje prawidłowe dane pasujące do typu kolumny.</li>
+<li>Szary: reprezentuje puste pola. Jednakże pusta wartość pola obowiązkowego jest oznaczona kolorem czerwonym, a nie białym.</li>
+<li>Czerwony: reprezentuje nieprawidłowe dane, które nie pasują do typu kolumny lub zestawu parametrów w modelu danych.</li>
+</ul>
+<ol type="1" start="4">
+<li>Kliknij strzałkę w dół w lewym górnym rogu listy zadań, aby rozwinąć wszystkie zadania, lub kliknij strzałkę w dół konkretnego zadania, aby je rozwinąć.</li>
+<li>Ustaw reguły przetrwania, aby wybrać atrybuty z rekordów klientów i wykorzystać je do zbudowania rekordów głównych. Możliwych jest kilka podejść:</li>
+</ol>
+<ul>
+<li>Ustaw ręcznie regułę przeżycia dla jednego atrybutu z wielu rekordów.</li>
+<li>Kliknij nagłówek kolumny,<code>Nazwisko</code> na przykład i w panelu po prawej stronie przejdź do sekcji Przetrwanie.</li>
+<li>Rozwiń listę reguł przetrwania i wybierz<code>Najczęściej</code> jako regułę przetrwania, którą chcesz zastosować do atrybutu nazwy we wszystkich zadaniach na liście.</li>
+<li>Jeśli chcesz zastosować regułę do wszystkich wartości nazw, w tym do wartości null, usuń zaznaczenie pola wyboru Unikaj wartości null, w przeciwnym razie pozostaw je zaznaczone.</li>
+<li>Kliknij przycisk Prześlij, aby wybrać najczęstsze wartości nazw i dodać je do rekordów głównych wszystkich zadań.</li>
+<li>Ustaw ręcznie regułę przetrwania dla wszystkich atrybutów jednego lub wielu złotych rekordów.</li>
+<li>Wybierz zadania, dla których chcesz ustawić regułę, i w obszarze Zadanie w panelu po prawej stronie kliknij Zastosuj regułę przeżycia.</li>
+<li>Na liście Wybór kliknij Wybrane zadania.<br>Regułę możesz zastosować do wszystkich zadań lub tylko do zadań filtrowanych, jeśli na liście zdefiniowałeś filtr.</li>
+<li>Z listy Reguła wybierz opcję zastosowania<code>Najbardziej zaufani</code> na przykład do grupy wybranych zadań.<br>Jeśli w kampanii Łączenie zdefiniowano źródła zduplikowanych danych, nazwy źródeł zostaną uwzględnione na liście i można je wybrać jako regułę przetrwania do zastosowania do wartości kolumn.</li>
+<li>Jeśli chcesz zastosować regułę do wszystkich wartości, łącznie z wartościami null, usuń zaznaczenie pola wyboru Unikaj wartości null, w przeciwnym razie pozostaw je zaznaczone.</li>
+<li>Kliknij Prześlij, aby dodać wartości nazw z najwyższym wynikiem do wybranych złotych rekordów.</li>
+<li>Ustaw ręcznie regułę przetrwania dla jednego lub kilku atrybutów rekordu: wskaż atrybut w rekordzie głównym zadania i spośród wyświetlonych ikon wybierz regułę przetrwania, którą chcesz zastosować.</li>
+<li><img alt="Select first valid icon" style="width: 16.00px" src="img/bab30a09bfa92d30.png">: Wybiera pierwszą prawidłową wartość atrybutu spośród duplikatów. „Pierwszy&#34; jest definiowany przez kolejność rekordów podczas tworzenia zadania.</li>
+<li><img alt="Select most common icon" style="width: 16.00px" src="img/64f5e67d8b413893.png">: Wybiera najczęstszą wartość atrybutu spośród duplikatów.</li>
+<li><img alt="Select most recent icon" style="width: 16.00px" src="img/beca6f9add63c3db.png">: Wybiera najnowszą wartość atrybutu spośród duplikatów.</li>
+<li><img alt="Select most trusted icon" style="width: 16.00px" src="img/afa95df929a392a4.png">: Wybiera najbardziej zaufaną wartość atrybutu spośród duplikatów.<br>Ikony przeżycia są wyszarzone, jeśli zasada przetrwania nie ma zastosowania w wybranym rekordzie.</li>
+<li>Wybierz wartość danego atrybutu źródłowego, która będzie wartością dla rekordu głównego: wskaż atrybut źródłowy i kliknij strzałkę w górę, aby ustawić wybraną wartość w rekordzie głównym.</li>
+</ul>
+<ol type="1" start="6">
+<li>Opcjonalnie kliknij dwukrotnie wartość w rekordzie głównym i ustaw wybraną przez siebie wartość, której nie ma w żadnym ze źródeł.</li>
+<li>Kliknij<img alt="Lock" style="width: 23.00px" src="img/3fb4d3e18db0d0ba.png"> ikonę obok zmodyfikowanego rekordu danych, aby oznaczyć zadanie jako gotowe do sprawdzenia.<br>Pierwsze pole jest oznaczone zielonym tłem i wyliczany jest procent wykonania Twoich zadań, który wyświetla się w prawym górnym rogu.<br>Możesz ponownie zmodyfikować rekordy gotowe do sprawdzenia, ale spowoduje to przywrócenie zadania do stanu początkowego z ciemnoszarym kolorem tła. Należy ponownie kliknąć ikonę kłódki, aby oznaczyć zadanie jako gotowe do sprawdzenia.</li>
+<li>Jeśli ikona kłódki ma czerwone tło, popraw nieprawidłową wartość w zadaniu, zanim będzie można oznaczyć je jako gotowe do sprawdzenia.</li>
+<li>Powtórz powyższy krok, aby utworzyć rekordy główne dla wszystkich przypisanych Ci zadań.</li>
+<li>Kliknij Zatwierdź w prawym górnym rogu, aby zatwierdzić zmiany i przenieść zadanie z listy.</li>
+</ol>
+<h2 is-upgraded><strong>Wyniki</strong></h2>
+<p>Tworzone są rekordy główne, a zatwierdzone rekordy przenoszone są na listę uczestnika kampanii, któremu nadano uprawnienia<code>Walidator konta</code> rolę w tym przykładzie.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Zatwierdzanie zmian w dokumentach głównych" duration="0">
+        <p>Nowe rekordy główne, które są tworzone i zatwierdzane, przechodzą przez dwa etapy walidacji w przepływie pracy, aby dokładnie sprawdzić dokładność i kompletność danych.</p>
+<p>Steward, któremu przyznano<code>Walidator konta</code> rola weryfikuje rekordy główne i akceptuje lub odrzuca dokonane na nich wybory. Steward, któremu przyznano<code>Menadżer konta</code> rola ponownie sprawdza rekordy główne i akceptuje lub odrzuca zmiany przed oznaczeniem ich jako rozwiązane.</p>
+<h2 is-upgraded><strong>Procedura</strong></h2>
+<ol type="1" start="1">
+<li>Zaloguj się jako administrator danych.</li>
+<li>Na stronie Zadania kliknij przycisk<code>Uzgadnianie danych klientów</code> kampanię, aby otworzyć listę zadań przeniesionych do<code>Do weryfikacji</code> państwo.<br>Tę samą rolę w tej kampanii przypisano więcej niż jednemu stewardowi danych. Zadania, które pojawiają się na Twoich pulpitach nawigacyjnych, są nieprzypisane. Najpierw powinniście przydzielić zadania między sobą, zanim zaczniecie nad nimi pracować.</li>
+<li>Na pasku menu wybierz opcję Przypisanie &gt; Nieprzypisane.<br><img alt="Unassigned option in the interface." style="width: 624.00px" src="img/b2152936bce76fd6.png"></li>
+<li>Na liście nieprzydzielonych zadań przytrzymaj klawisze Ctrl + Shift, wybierz zadania i przypisz je sobie, wykonując jedną z poniższych czynności:</li>
+</ol>
+<ol type="1" start="1">
+<li>W lewym panelu wskaż administratora danych, któremu chcesz przypisać zadania i kliknij<img alt="Assign tasks" style="width: 26.00px" src="img/7b62ab678b878b15.png"> obok ich nazwy.</li>
+<li>W prawym panelu kliknij Przypisz zadania i z listy Przypisany wybierz, komu chcesz przypisać zadania.</li>
+<li>Przekaż wybrane zadania stewardowi danych w lewym panelu. Przypisz je do siebie w tym przykładzie.</li>
+</ol>
+<ol type="1" start="5">
+<li>Wybrane zadania zostaną przeniesione na Twoją listę. Liczba zadań widoczna pod Twoim imieniem i nazwiskiem w lewym panelu to liczba zadań przypisanych do Ciebie w bieżącej kampanii.</li>
+<li>Notatka informacyjna</li>
+<li>Wskazówka: możesz użyć wykresów wyświetlanych obok listy zadań, aby filtrować dane i wyświetlać tylko te zadania, które chcesz przypisać konkretnemu administratorowi danych.</li>
+<li>Na pasku menu wybierz Przypisanie &gt; Przydzielono mi, aby wyświetlić zadania, dla których musisz zatwierdzić wybory początkowych stewardów danych.<br><img alt="List of tasks assigned to the current user." style="width: 624.00px" src="img/9b6bff0a98b00766.png"></li>
+<li>Zatwierdź zmiany w rekordach głównych:</li>
+</ol>
+<ol type="1" start="1">
+<li>Aby zaakceptować zmiany w rekordach głównych bez dalszych modyfikacji, wybierz zadania i kliknij Akceptuj.</li>
+<li>Aby zaakceptować zmiany w rekordzie głównym po wykonaniu kolejnych modyfikacji, użyj dowolnej funkcji w obszarze Kolumna w prawym panelu lub wprowadź zupełnie nowe wartości w polach i kliknij Akceptuj.</li>
+</ol>
+<ol type="1" start="10">
+<li>Pierwsze pola zatwierdzonych zadań są oznaczone zielonym tłem, a kolumna Przejście jest wypełniona tekstem decyzji Akceptuj lub Odrzuć.</li>
+<li>Aby odrzucić zmiany dokonane w rekordach głównych, wybierz rekordy i kliknij Odrzuć.</li>
+<li>Kliknij opcję Sprawdź w prawym górnym rogu.<br>Zatwierdzone zadania są przekazywane i przydzielane stewardowi posiadającemu uprawnienia<code>Menadżer konta</code> rola.<br>Steward z<code>Menadżer konta</code> rola powinna wykonać te same kroki, aby zatwierdzić rekordy po raz drugi i zaakceptować lub odrzucić zmiany. Zatwierdzone zadania są rozwiązywane i usuwane z listy. Odrzucone zadania są przenoszone z powrotem na początkową listę nieprzydzielonych zadań.</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Ponowne otwieranie rozwiązanych zadań" duration="0">
+        <p>Ponowne otwarcie zadań, które zostały rozwiązane i przeniesione do stanu końcowego w przepływie pracy, jest czasami konieczne, aby naprawić aktualizacje dokonane na wartościach w rekordach głównych.</p>
+<h2 is-upgraded><strong>O tym zadaniu</strong></h2>
+<p>Dokumenty główne są zatwierdzane i oznaczane jako rozwiązane. Administrator danych, któremu przyznano<code>Menadżer konta</code> rola może teraz uzyskać dostęp do listy rozwiązanych zadań i zdecydować, czy konieczne jest ponowne otwarcie niektórych zadań i naprawienie aktualizacji dokonanych na wartościach.</p>
+<h2 is-upgraded><strong>Procedura</strong></h2>
+<ol type="1" start="1">
+<li>Zaloguj się jako administrator danych.</li>
+<li>Na stronie Zadania kliknij nazwę kampanii<code>Uzgadnianie danych klientów</code>.<br>Rozwiązane zadania są zawsze nieprzypisane. Administrator danych, który posiada<code>MENADŻER KONTA</code> Rola w tym przykładzie może uzyskać do nich dostęp.<br><img alt="List of resolved tasks." style="width: 624.00px" src="img/3a574ad201096dc3.png"></li>
+<li>Na pasku menu użyj kombinacji Stan &gt; Rozwiązane i Przydział &gt; Nieprzypisane, aby otworzyć listę rozwiązanych zadań.</li>
+<li>Wybierz zadanie lub przytrzymaj klawisze Ctrl + Shift i wybierz zadania, w przypadku których musisz podjąć inną decyzję.</li>
+<li>W prawym panelu kliknij Zadanie i:</li>
+</ol>
+<ol type="1" start="1">
+<li>Rozwiń Otwórz ponownie zadania.</li>
+<li>Wybierz Wybrane zadania z listy Wybór.</li>
+<li>Wybierz opcję Do sprawdzenia z listy Stan docelowy.</li>
+<li>Opcjonalnie w polu Komentarz wpisz wyjaśnienie swojej decyzji o ponownym otwarciu zadania.</li>
+<li>Kliknij opcję Prześlij.</li>
+</ol>
+<h2 is-upgraded><strong>Wyniki</strong></h2>
+<p>Wybrane zadania zostaną ponownie otwarte i przesłane z powrotem do stanu walidacji w przepływie pracy.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Gratulacje" duration="0">
+        <p><strong>Gratulacje! Poznałaś(eś) właśnie funkcjonalność Talend Cloud Data Stewardship</strong></p>
+<h2 is-upgraded><strong>Co jest następne?</strong></h2>
+<p>Nauczyłeś się, jak korzystać z kampanii scalającej, aby zapewnić spójność danych załadowanych do Talend Cloud Data Stewardship.</p>
+<p>Widziałeś, jak wybierać, na podstawie różnych wyników, najlepsze wartości atrybutów ze źródeł danych i przedstawiać najdokładniejsze i najbardziej wiarygodne rekordy główne do wykorzystania przez użytkowników biznesowych i systemy.</p>
+<p>Możesz teraz dowiedzieć się o innych typach kampanii, które możesz utworzyć w Talend Cloud Data Stewardship.</p>
+<p>Aby uzyskać więcej informacji, zobacz<a href="https://help.talend.com/r/en-US/Cloud/data-stewardship-examples" target="_blank">Przykłady zarządzania danymi w chmurze Talend</a>.</p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
